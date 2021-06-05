@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 
 
 //aa
-import '../flutter_flow/flutter_flow_theme.dart';
-import '../flutter_flow/flutter_flow_widgets.dart';
-import '../score_page/score_page_widget.dart';
-import '../qr_code_scanner_view/qr_code_scanner_view.dart';
-import 'package:flutter/material.dart';
+import 'flutter_flow/flutter_flow_theme.dart';
+import 'flutter_flow/flutter_flow_widgets.dart';
+import 'score_page/score_page_widget.dart';
+import 'qr_code_scanner_view/qr_code_scanner_view.dart';
+import 'home_page_eng/home_page_eng_widget.dart';
 
 // libraries for geolocation based notification
 import 'package:shared_preferences/shared_preferences.dart';
@@ -15,9 +15,6 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_background_geolocation/flutter_background_geolocation.dart' as bg;
 import 'package:geocoder/geocoder.dart';
 FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;
-
-
-
 
 void main() async{
 

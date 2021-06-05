@@ -202,7 +202,6 @@ class _QRCodeScannerViewState extends State<QRCodeScannerView> {
       print('query all rows:');
       allRows.forEach((row) => print(row));
     }
-    _insert(data);
     if (!_isQRScanned) {
       // カメラを一時停止
       _qrController?.pauseCamera();

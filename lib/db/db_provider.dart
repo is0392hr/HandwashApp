@@ -63,7 +63,11 @@ class DBProvider {
     Database db = await instance.database; //DBにアクセスする
     return await db.query(table); //全件取得
   }
-
+  // 全件取得2
+  Future<List<Map>> queryAllRows2() async {
+    Database db = await instance.database; //DBにアクセスする
+    return await db.rawQuery('SELECT * FROM ${table}');
+  }
   // // データ件数取得
   // Future<int> queryRowCount() async {
   //   Database db = await instance.database; //DBにアクセスする
