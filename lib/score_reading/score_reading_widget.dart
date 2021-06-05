@@ -6,7 +6,8 @@ import '../score_page/score_page_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../qr_code_scanner_view/qr_code_scanner_view.dart';
-import 'package:google_fonts/google_fonts.dart';
+import '../db/db_provider.dart';
+
 
 class ScoreReadingWidget extends StatefulWidget {
   final ConfirmViewArguments args;

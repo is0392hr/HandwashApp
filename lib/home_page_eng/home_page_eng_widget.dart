@@ -1,6 +1,8 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../qr_code_scanner_view_en/qr_code_scanner_view_en.dart';
 import 'package:flutter/material.dart';
+import '../score_page_eng/score_page_eng_widget.dart';
 import '../main.dart';
 
 class HomePageEngWidget extends StatefulWidget {
@@ -45,11 +47,21 @@ class _HomePageEngWidgetState extends State<HomePageEngWidget> {
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: [
-                              Image.asset(
-                                'assets/images/language.png',
-                                width: 40,
-                                height: 40,
-                                fit: BoxFit.cover,
+                              InkWell(
+                                onTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => HomePageWidget(),
+                                    ),
+                                  );
+                                },
+                                child: Image.asset(
+                                  'assets/images/language.png',
+                                  width: 40,
+                                  height: 40,
+                                  fit: BoxFit.cover,
+                                ),
                               )
                             ],
                           )
@@ -95,8 +107,14 @@ class _HomePageEngWidgetState extends State<HomePageEngWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             FFButtonWidget(
-                              onPressed: () {
+                              onPressed: () async{
                                 print('Button pressed ...');
+                                await Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => QRCodeScannerView_en(),
+                                  ),
+                                );
                               },
                               text: 'QR Camera',
                               options: FFButtonOptions(
@@ -117,8 +135,14 @@ class _HomePageEngWidgetState extends State<HomePageEngWidget> {
                               ),
                             ),
                             FFButtonWidget(
-                              onPressed: () {
+                              onPressed: () async{
                                 print('Button pressed ...');
+                                await Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => ScorePageEngWidget(),
+                                  ),
+                                );
                               },
                               text: 'Score Check',
                               options: FFButtonOptions(

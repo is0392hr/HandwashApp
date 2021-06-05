@@ -7,6 +7,7 @@ import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_widgets.dart';
 import 'score_page/score_page_widget.dart';
 import 'qr_code_scanner_view/qr_code_scanner_view.dart';
+import 'qr_code_scanner_view_en/qr_code_scanner_view_en.dart';
 import 'home_page_eng/home_page_eng_widget.dart';
 
 // libraries for geolocation based notification
@@ -43,7 +44,9 @@ class MyApp extends StatelessWidget {
 class Const {
   static const routeHomePage = '/home';
   static const routeQRCodeScanner = '/qr-code-scanner';
+  static const routeQRCodeScanner_en = '/qr-code-scanner-en';
   static const routeScoreReading = '/score-reading';
+  static const routeScoreReading_en = '/score-reading-en';
 }
 
 class HomePageWidget extends StatefulWidget {
@@ -58,6 +61,7 @@ class HomePageWidget extends StatefulWidget {
       routes: <String, WidgetBuilder>{
         Const.routeHomePage: (BuildContext context) => HomePageWidget(),
         Const.routeQRCodeScanner: (BuildContext context) => QRCodeScannerView(),
+        Const.routeQRCodeScanner_en: (BuildContext context) => QRCodeScannerView_en(),
         // Const.routeScoreReading: (BuildContext context) => ScoreReadingWidget(),
       },
       // home: createState(),
@@ -72,7 +76,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   void _addGeofence() {
     bg.BackgroundGeolocation.addGeofence(bg.Geofence(
       identifier: 'HOME',
-      radius: 150,
+      radius: 50,
       latitude: 35.0662392,
       longitude: 135.7803708,
       notifyOnEntry: true, // only notify on entry
@@ -165,11 +169,21 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: [
-                              Image.asset(
-                                'assets/images/language.png',
-                                width: 40,
-                                height: 40,
-                                fit: BoxFit.cover,
+                              InkWell(
+                                onTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => HomePageEngWidget(),
+                                    ),
+                                  );
+                                },
+                                child: Image.asset(
+                                  'assets/images/language.png',
+                                  width: 40,
+                                  height: 40,
+                                  fit: BoxFit.cover,
+                                ),
                               )
                             ],
                           )

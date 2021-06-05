@@ -54,13 +54,13 @@ class _ScorePageWidgetState extends State<ScorePageWidget> {
         centerTitle: true,
         elevation: 4,
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          print('FloatingActionButton pressed ...');
-        },
-        backgroundColor: Color(0xFF03A9F4),
-        elevation: 8,
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     print('FloatingActionButton pressed ...');
+      //   },
+      //   backgroundColor: Color(0xFF03A9F4),
+      //   elevation: 8,
+      // ),
       body: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.max,
