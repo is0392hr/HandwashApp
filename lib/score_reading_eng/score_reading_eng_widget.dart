@@ -7,7 +7,6 @@ import '../score_page_eng/score_page_eng_widget.dart';
 
 class ScoreReadingEngWidget extends StatefulWidget {
   final ConfirmViewArguments args;
-// ScoreReadingWidget({Key key, @required this.data}) : super(key: key);
   const ScoreReadingEngWidget(this.args);
   @override
   _ScoreReadingEngWidgetState createState() => _ScoreReadingEngWidgetState();

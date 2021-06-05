@@ -1,23 +1,11 @@
 import 'dart:io';
-import 'package:demo/score_reading_eng/score_reading_eng_widget.dart';
-
-import '../flutter_flow/flutter_flow_theme.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import '../qr_code_scanner_view/qr_code_scanner_view.dart';
-import '../score_reading/score_reading_widget.dart';
-// import '../home_page/home_page_widget.dart';
-import '../main.dart'; // changed
+import '../score_reading_eng/score_reading_eng_widget.dart';
 import '../db/db_provider.dart';
-import '../main.dart';
 
-
-// @immutable
-// class ConfirmViewArguments_en {
-//   const ConfirmViewArguments_en({this.data});
-//   final String data;
-// }
 
 class QRCodeScannerView_en extends StatefulWidget {
   @override
@@ -28,17 +16,6 @@ class _QRCodeScannerViewState_en extends State<QRCodeScannerView_en> {
   QRViewController _qrController;
   final GlobalKey _qrKey = GlobalKey(debugLabel: 'QR');
   bool _isQRScanned = false;
-
-  // ScoreHelper _scoreHelper = ScoreHelper();
-
-  // @override
-  // void initState(){
-  //   // var scoreDateTime = DateTime.now();
-  //   _scoreHelper.initializeDatabase().then((value){
-  //     print('-------------database initialized----------------');
-  //   });
-  //   super.initState();
-  // }
 
   // ホットリロードを機能させるには、プラットフォームがAndroidの場合はカメラを一時停止するか、
   // プラットフォームがiOSの場合はカメラを再開する必要がある

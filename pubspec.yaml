@@ -1,4 +1,4 @@
-name: demo
+name: Rascal
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -38,6 +38,7 @@ dependencies:
   flutter_google_places: ^0.2.4
   google_maps_webservice: ^0.0.16
   geocoder: ^0.2.1
+  share: ^0.6.5+4
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -48,6 +49,13 @@ dev_dependencies:
 
   flutter_test:
     sdk: flutter
+
+  flutter_launcher_icons: any
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/rascal_icon.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

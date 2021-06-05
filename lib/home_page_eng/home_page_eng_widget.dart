@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import '../qr_code_scanner_view_en/qr_code_scanner_view_en.dart';
-import 'package:flutter/material.dart';
 import '../score_page_eng/score_page_eng_widget.dart';
 import '../main.dart';
 

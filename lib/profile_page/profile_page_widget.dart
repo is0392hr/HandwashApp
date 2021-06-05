@@ -1,8 +1,7 @@
-import '../flutter_flow/flutter_flow_theme.dart';
-// import '../home_page/home_page_widget.dart';
-import '../main.dart'; //changed
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import '../flutter_flow/flutter_flow_theme.dart';
+import '../main.dart'; //changed
+
 
 class ProfilePageWidget extends StatefulWidget {
   ProfilePageWidget({Key key}) : super(key: key);

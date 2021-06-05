@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:demo/home_page/home_page_widget.dart';
-
-
-//aa
 import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_widgets.dart';
 import 'score_page/score_page_widget.dart';
@@ -11,12 +7,14 @@ import 'qr_code_scanner_view_en/qr_code_scanner_view_en.dart';
 import 'home_page_eng/home_page_eng_widget.dart';
 
 // libraries for geolocation based notification
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_background_geolocation/flutter_background_geolocation.dart' as bg;
-import 'package:geocoder/geocoder.dart';
 FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;
 
+
+/// command to update icon
+///  $ flutter pub pub run flutter_launcher_icons:main
+///
 void main() async{
 
   runApp(MyApp());

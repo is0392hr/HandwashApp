@@ -1,17 +1,15 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-// import '../home_page/home_page_widget.dart';
-import '../main.dart'; //changed
-import '../score_page/score_page_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+
+import '../main.dart';
+import '../score_page/score_page_widget.dart';
 import '../qr_code_scanner_view/qr_code_scanner_view.dart';
-import '../db/db_provider.dart';
+
 
 
 class ScoreReadingWidget extends StatefulWidget {
   final ConfirmViewArguments args;
-  // ScoreReadingWidget({Key key, @required this.data}) : super(key: key);
   const ScoreReadingWidget(this.args);
   @override
   _ScoreReadingWidgetState createState() => _ScoreReadingWidgetState();
@@ -20,18 +18,8 @@ class ScoreReadingWidget extends StatefulWidget {
 class _ScoreReadingWidgetState extends State<ScoreReadingWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
-// class ScoreReadingWidget extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: const Text('To confirm the scan results'),
-//       ),
-//       body: _build(context),
-//     );
-//   }
   Widget build(BuildContext context) {
-    final arguments =  widget.args; // ModalRoute.of(context).settings.arguments as ConfirmViewArguments;
+    final arguments =  widget.args;
 
     return Scaffold(
       // key: scaffoldKey,

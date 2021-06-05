@@ -1,8 +1,6 @@
 import '../flutter_flow/flutter_flow_theme.dart';
-// import '../home_page/home_page_widget.dart';
-import '../main.dart'; // main
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import '../main.dart';
 
 class ScorePlotWidget extends StatefulWidget {
   ScorePlotWidget({Key key}) : super(key: key);

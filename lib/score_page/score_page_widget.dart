@@ -1,7 +1,6 @@
-import '../flutter_flow/flutter_flow_theme.dart';
-// import '../home_page/home_page_widget.dart';
-import '../main.dart'; //changed
 import 'package:flutter/material.dart';
+import '../flutter_flow/flutter_flow_theme.dart';
+import '../main.dart';
 import '../db/db_provider.dart';
 
 class ScorePageWidget extends StatefulWidget {
