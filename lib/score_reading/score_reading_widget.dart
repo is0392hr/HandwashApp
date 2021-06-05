@@ -1,11 +1,11 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../home_page/home_page_widget.dart';
+// import '../home_page/home_page_widget.dart';
+import '../main.dart'; //changed
 import '../score_page/score_page_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../qr_code_scanner_view/qr_code_scanner_view.dart';
-import '../home_page/home_page_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ScoreReadingWidget extends StatefulWidget {

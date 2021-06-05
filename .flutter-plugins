@@ -1,0 +1,19 @@
+# This is a generated file; do not edit or check into version control.
+background_fetch=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/background_fetch-0.6.0/
+flutter_background_geolocation=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background_geolocation-1.11.1/
+flutter_local_notifications=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-1.5.0+1/
+geocoder=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/geocoder-0.2.1/
+google_api_headers=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_api_headers-0.1.1+2/
+package_info=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-0.4.3+4/
+path_provider=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.28/
+path_provider_linux=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+path_provider_macos=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+8/
+path_provider_windows=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.5/
+qr_code_scanner=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.5.1/
+shared_preferences=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.3/
+sqflite=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+3/
+url_launcher=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.4/
+url_launcher_linux=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-2.0.0/
+url_launcher_macos=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-2.0.0/
+url_launcher_web=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-2.0.0/
+url_launcher_windows=/Users/kokiasami/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-2.0.0/

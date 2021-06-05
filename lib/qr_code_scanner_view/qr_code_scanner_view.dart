@@ -4,8 +4,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import '../score_reading/score_reading_widget.dart';
-import '../home_page/home_page_widget.dart';
+// import '../home_page/home_page_widget.dart';
+import '../main.dart'; // changed
 import '../db/db_provider.dart';
+import '../main.dart';
 
 
 
