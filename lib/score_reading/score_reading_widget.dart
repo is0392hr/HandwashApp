@@ -118,16 +118,16 @@ class _ScoreReadingWidgetState extends State<ScoreReadingWidget> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Padding(
-                            padding: EdgeInsets.fromLTRB(5, 1, 100, 1),
+                            padding: EdgeInsets.fromLTRB(5, -20, 100, 1),
                             child: Image.asset(
-                              'assets/images/rascal.png',
+                              'assets/images/Score.png',
                               width: 120,
-                              height: 120,
+                              height: 220,
                               fit: BoxFit.cover,
                             ),
                           ),
                           Padding(
-                            padding: EdgeInsets.fromLTRB(0, 30, 0, 0),
+                            padding: EdgeInsets.fromLTRB(0, 200, 0, 0),
                             child: Text(
                               'でした。',
                               style: FlutterFlowTheme.title1.override(
@@ -138,7 +138,7 @@ class _ScoreReadingWidgetState extends State<ScoreReadingWidget> {
                         ],
                       ),
                       Padding(
-                        padding: EdgeInsets.fromLTRB(0, 90, 0, 0),
+                        padding: EdgeInsets.fromLTRB(0, 50, 0, 0),
                         child: Column(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

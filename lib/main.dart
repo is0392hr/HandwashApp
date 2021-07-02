@@ -188,18 +188,18 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         ],
                       ),
                       Padding(
-                        padding: EdgeInsets.fromLTRB(0, 40, 0, 0),
+                        padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
                         child: Image.asset(
-                          'assets/images/rascal.png',
-                          width: 200,
+                          'assets/images/Racoon2.png',
+                          width: 250,
                           fit: BoxFit.cover,
                         ),
                       ),
                       Padding(
-                        padding: EdgeInsets.fromLTRB(0, 5, 0, 1),
+                        padding: EdgeInsets.fromLTRB(0, 20, 0, 1),
                         child: Image.asset(
-                          'assets/images/handwash_promote_app.png',
-                          height: 50,
+                          'assets/images/HandWashPromotionSystemJp.png',
+                          height: 30,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -207,25 +207,25 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Image.asset(
-                            'assets/images/rassukaru.png',
+                            'assets/images/Logo.png',
                             width: MediaQuery.of(context).size.width,
-                            height: 100,
+                            height: 140,
                             fit: BoxFit.cover,
                           ),
-                          Divider(
-                            height: 10,
-                            thickness: 20,
-                            color: Colors.black,
-                          ),
+                          // Divider(
+                          //   height: 30,
+                          //   // thickness: 0,
+                          //   color: Colors.black,
+                          // ),
                           Padding(
                             padding: EdgeInsets.fromLTRB(1, 0, 0, 0),
-                            child: Text(
-                              'An app that promotes hand washing',
-                              textAlign: TextAlign.center,
-                              style: FlutterFlowTheme.bodyText1.override(
-                                fontFamily: 'Poppins',
-                              ),
-                            ),
+                            // child: Text(
+                            //   'An app that promotes hand washing',
+                            //   textAlign: TextAlign.center,
+                            //   style: FlutterFlowTheme.bodyText1.override(
+                            //     fontFamily: 'Poppins',
+                            //   ),
+                            // ),
                           ),
                           Padding(
                             padding: EdgeInsets.fromLTRB(0, 50, 0, 0),

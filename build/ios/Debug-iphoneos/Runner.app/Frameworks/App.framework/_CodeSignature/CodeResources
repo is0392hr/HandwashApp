@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		gRPUoE+eACHwWYVvG30i8xnGqno=
+		epP9M6rT28TNighVJnpR12d+pC4=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,19 +18,39 @@
 		</data>
 		<key>flutter_assets/NOTICES</key>
 		<data>
-		4l+jJ4XHdxiFC3Y6aXm8WG7GASg=
+		V023s4stNG1ycuHGRNq2gufQhcc=
 		</data>
 		<key>flutter_assets/assets/images/BACk25.jpg</key>
 		<data>
 		C3aSpSxio+MJchIjw0TOjVjGzaM=
 		</data>
+		<key>flutter_assets/assets/images/HandWashPromotionSystemEng.png</key>
+		<data>
+		7rPRpasXxeCw7CGxd7479W97fEI=
+		</data>
+		<key>flutter_assets/assets/images/HandWashPromotionSystemJp.png</key>
+		<data>
+		4N01zjCoxZNLlynVBxo5jQ1KVWg=
+		</data>
 		<key>flutter_assets/assets/images/HandwashEvaluator.png</key>
 		<data>
 		Eirzr/uT6pMhRdRJ3YsvPB1mp+c=
 		</data>
+		<key>flutter_assets/assets/images/Logo.png</key>
+		<data>
+		SiNA/XE71iNn6vTn8HDl6L/8UQo=
+		</data>
 		<key>flutter_assets/assets/images/RASCAL1.png</key>
 		<data>
 		kKAx47T3xkRTZtmLxaeLwaKiZEw=
+		</data>
+		<key>flutter_assets/assets/images/Racoon2.png</key>
+		<data>
+		gjPUKYv/r75h9H9SrlYamYFReys=
+		</data>
+		<key>flutter_assets/assets/images/Score.png</key>
+		<data>
+		t34JouHtdN0Mt61959N6c1xl07w=
 		</data>
 		<key>flutter_assets/assets/images/favicon.png</key>
 		<data>
@@ -44,6 +64,18 @@
 		<data>
 		nYWot+C+pAYhvNmeClrr4MwZpxQ=
 		</data>
+		<key>flutter_assets/assets/images/mitarashi_icon.png</key>
+		<data>
+		ndg89zqTNVA3FucnXRqm4qSMG+0=
+		</data>
+		<key>flutter_assets/assets/images/mitarashi_icon.psd</key>
+		<data>
+		aUPxuVg8VkgY+8dGK3mqIHdITGM=
+		</data>
+		<key>flutter_assets/assets/images/mitarashi_icon_v2.png</key>
+		<data>
+		qrqo4NhkLnqlHeX0yfwvJ2Y0fao=
+		</data>
 		<key>flutter_assets/assets/images/popup.png</key>
 		<data>
 		1fGsBJkVP8ML5TRkcr19yCAQAjk=
@@ -55,6 +87,14 @@
 		<key>flutter_assets/assets/images/rascal.png</key>
 		<data>
 		zT2it5ovmz4NFt4JCjAr5eFvluY=
+		</data>
+		<key>flutter_assets/assets/images/rascal_icon.png</key>
+		<data>
+		tUVRBeBptYvPfzDsthEb9wVtcOk=
+		</data>
+		<key>flutter_assets/assets/images/rascal_icon.psd</key>
+		<data>
+		EKUCt3Hc08ZpOzLuCOlRR+khGkI=
 		</data>
 		<key>flutter_assets/assets/images/rassukaru.png</key>
 		<data>
@@ -78,7 +118,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		flqzJi1qjcCd0BO9exNaLESm/9E=
+		BbmT4kWWbKk+CaszfyHrdD6etKg=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -115,11 +155,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gRPUoE+eACHwWYVvG30i8xnGqno=
+			epP9M6rT28TNighVJnpR12d+pC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			toPWSIvsYJCPJ3teqiBcE3wdQkRyBgZNkBAmyOUjVgo=
+			pSi4ovFkyI7DpWql/4uCet2jEdDDk/XBMJBH+hoHjQE=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -137,11 +177,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4l+jJ4XHdxiFC3Y6aXm8WG7GASg=
+			V023s4stNG1ycuHGRNq2gufQhcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			UKdNF7UrTjVLrO1wmutvszvtHqglI9ZP1SV2/gFJkdw=
+			H5qdbwFjXScjtPRt3UDZWMA74nO9FEx7WrpOfQyrouU=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/BACk25.jpg</key>
@@ -155,6 +195,28 @@
 			ZLl7XpwcYchR+HJ3sFFHMLTF/oxDpP3mAtFbVpJvEAc=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/HandWashPromotionSystemEng.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7rPRpasXxeCw7CGxd7479W97fEI=
+			</data>
+			<key>hash2</key>
+			<data>
+			jAs/udbwtI4x6GNFggeLmfZZQYCN3cJ2C6wp+aYXzt8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/HandWashPromotionSystemJp.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4N01zjCoxZNLlynVBxo5jQ1KVWg=
+			</data>
+			<key>hash2</key>
+			<data>
+			MC1XtQYpb27cxwOw2nZ824ilTy1/DuRlnCdkX4FiKlY=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/HandwashEvaluator.png</key>
 		<dict>
 			<key>hash</key>
@@ -166,6 +228,17 @@
 			z4lmf2WQpGoBsrlwFpedjmqCNnyJ4AhbjgixIQus404=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/Logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SiNA/XE71iNn6vTn8HDl6L/8UQo=
+			</data>
+			<key>hash2</key>
+			<data>
+			RlnBZpdg+NOzoZ6qI4NrixVZv6+ZiRe7MHfC/HTxTV0=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/RASCAL1.png</key>
 		<dict>
 			<key>hash</key>
@@ -175,6 +248,28 @@
 			<key>hash2</key>
 			<data>
 			/goReUQNw0nrR6HeFvChQajNrEmtl7YA4Lch8qWCvBg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/Racoon2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gjPUKYv/r75h9H9SrlYamYFReys=
+			</data>
+			<key>hash2</key>
+			<data>
+			qGb8SN2CPzokz8xVXchskNT5UTvLOlEIcAXPiWqDxJM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/Score.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t34JouHtdN0Mt61959N6c1xl07w=
+			</data>
+			<key>hash2</key>
+			<data>
+			5dNRIBbyTYtdxpVEK5KqlAV2o+M/dGGAtyFMObHW+JU=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/favicon.png</key>
@@ -210,6 +305,39 @@
 			OVw8Z5zc9iOrxtMm1O8p1Ffj19a62sVczWZiy303cCw=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/mitarashi_icon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ndg89zqTNVA3FucnXRqm4qSMG+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			186VuxgnfRrNIrzkOAvkJgijfi9mmtZ+N+etfEMFC5c=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/mitarashi_icon.psd</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aUPxuVg8VkgY+8dGK3mqIHdITGM=
+			</data>
+			<key>hash2</key>
+			<data>
+			fmKqfBhP4O8PCcGdfbBH3I3P9+RFvD5tccsnPJHcnI8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/mitarashi_icon_v2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qrqo4NhkLnqlHeX0yfwvJ2Y0fao=
+			</data>
+			<key>hash2</key>
+			<data>
+			SryRrenHm2kFw2Dhs7b7iOe7ra+lXTmA6f4ul7YDHnY=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/popup.png</key>
 		<dict>
 			<key>hash</key>
@@ -241,6 +369,28 @@
 			<key>hash2</key>
 			<data>
 			qyn0GgNToP3W+ORBzFoHGX0qDOEZccd6gtsmjW2aMaM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/rascal_icon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tUVRBeBptYvPfzDsthEb9wVtcOk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xp7yrItYTtpHM/Kw+I51O/9x4s2E+amY4wK9Tuusm4I=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/rascal_icon.psd</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EKUCt3Hc08ZpOzLuCOlRR+khGkI=
+			</data>
+			<key>hash2</key>
+			<data>
+			rVUmvJQ6+7hUTCZZ9Z/AH/9xxQAgrwgPNSJveMAfXbA=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/rassukaru.png</key>
@@ -302,11 +452,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			flqzJi1qjcCd0BO9exNaLESm/9E=
+			BbmT4kWWbKk+CaszfyHrdD6etKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ydX2xrDVdn8ugRv3krPaeb1KUd2Q+AFiq4AXGwiNV4Y=
+			1r7rTnXQpzqUH3fJWfgoKxKO+4edweDX1lJKJr3kuSY=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

@@ -45,7 +45,7 @@ class _ScoreReadingEngWidgetState extends State<ScoreReadingEngWidget> {
                         Padding(
                           padding: EdgeInsets.fromLTRB(3, 0, 0, 0),
                           child: Text(
-                            'Your hand wash score is',
+                            'Your hand wash score was...',
                             style: FlutterFlowTheme.title1.override(
                               fontFamily: 'Poppins',
                             ),
@@ -114,9 +114,9 @@ class _ScoreReadingEngWidgetState extends State<ScoreReadingEngWidget> {
                           Padding(
                             padding: EdgeInsets.fromLTRB(0, 1, 10, 1),
                             child: Image.asset(
-                              'assets/images/rascal.png',
+                              'assets/images/Score.png',
                               width: 150,
-                              height: 150,
+                              height: 200,
                               fit: BoxFit.cover,
                             ),
                           )
