@@ -1,14 +1,13 @@
 ![ヘッダー画像](/assets/images/Logo.png)
 # 手洗い促進アプリ 御手洗PLUS
-京都大学情報学研究科社会情報学専攻の実習クラスで作成したシステムです。
+京都大学大学院情報学研究科社会情報学専攻の実習クラスで作成したシステムです。
+当該授業で**最優秀賞**を受賞しました🎉🎉🎉
 
 御手洗PLUSは手洗いの促進を目標としており、スマホアプリ（iOS, Androidに対応）とHandwash Evaluator(Jetson Nano)と使用したシステムです。
 ユーザがHandwash Evaluatorが設置されている自宅、研究室や職場へ到着すると、アプリからプッシュ通知が届きます。Handwash Evaluatorはユーザの手洗い開始を検知し、ユーザの手洗いを評価します。手洗い評価はHandwash Evaluatorに繋がれたモニターに映し出されているアニメーションと連動し可視化されます。
 手洗いの終了を検知するとモニターにQRが映し出され、ユーザはアプリでQRをスキャンすることでスコアを記録します。
 
 Handwash Evaluatorのリポジトリのリンクは[こちら](https://github.com/is0392hr/handwash)
-
-当該授業で**最優秀賞**を受賞しました🎉🎉🎉
 
 **紹介動画は[こちら](https://www.youtube.com/watch?v=PBns3sUhe7Y)**
 
