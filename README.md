@@ -12,7 +12,7 @@ Handwash Evaluatorのリポジトリのリンクは[こちら](https://github.co
 
 **紹介動画は[こちら](https://www.youtube.com/watch?v=PBns3sUhe7Y)**
 
-**スライドは[こちら]()**
+**スライドは[こちら](https://docs.google.com/presentation/d/1fVfTtds5QCr5dvoYWCT9diF7SFI0JmmAsynQwNJ5s38/edit?usp=sharing)**
 
 ## 開発体制
 <table>
@@ -23,7 +23,7 @@ Handwash Evaluatorのリポジトリのリンクは[こちら](https://github.co
       <b><a href="https://github.com/is0392hr"><img src="https://github.com/is0392hr.png" width="50px;" /></b>
       <b><a href="https://github.com/chum0n"><img src="https://github.com/chum0n.png" width="50px;" /></b>
       <b><a href="https://github.com/tahaShaheen"><img src="https://github.com/tahaShaheen.png" width="50px;" /></b>
-      <b><img src="/assets/images/human.png" width="50px;" /></b>
+      <b><a href="https://github.com/yudai78"><img src="https://github.com/yudai78.png" width="50px;" /></b>
       <b><img src="/assets/images/human.png" width="50px;" /></b>
     </td>
   </tr>
@@ -33,7 +33,7 @@ Handwash Evaluatorのリポジトリのリンクは[こちら](https://github.co
       <a href="https://github.com/is0392hr">@is0392hr</a>：Planner of this project, Developer of Handwash Evaluator, Main developer of QR scanner and more<br>
       <a href="https://github.com/chum0n">@chum0n</a> : Developer of Notification App, Main developer of database-related functions<br>
       <a href="https://github.com/tahaShaheen">@tahaShaheen</a> : Developer of animation used in Handwash Evaluator, Co-developer of functions related to geolocation information acquisition<br>
-      Abe : Developer of Notification App, Main developer of functions related to geolocation information acquisition<br>
+      <a href="https://github.com/yudai78">@yudai78</a> : Developer of Notification App, Main developer of functions related to geolocation information acquisition<br>
       Suzuki : UI designer of Notification App<br>
     </td>
   </tr>
