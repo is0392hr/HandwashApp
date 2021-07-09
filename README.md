@@ -33,7 +33,7 @@ Handwash Evaluatorのリポジトリのリンクは[こちら](https://github.co
       <a href="https://github.com/chum0n">@chum0n</a> : Developer of Notification App, Main developer of database-related functions<br>
       <a href="https://github.com/tahaShaheen">@tahaShaheen</a> : Developer of animation used in Handwash Evaluator, Co-developer of functions related to geolocation information acquisition<br>
       <a href="https://github.com/yudai78">@yudai78</a> : Developer of Notification App, Main developer of functions related to geolocation information acquisition<br>
-      Suzuki : UI designer of Notification App<br>
+      <a href="https://github.com/SSPod29">@SSPod29</a> : UI designer of Notification App<br>
     </td>
   </tr>
   <tr>
