@@ -1,31 +1,48 @@
-# demo
+![ヘッダー画像](/assets/images/Logo.png)
+# 手洗い促進アプリ 御手洗PLUS
+京都大学情報学研究科社会情報学専攻の実習クラスで作成したシステムです。
 
-A new Flutter project.
+御手洗PLUSは手洗いの促進を目標としており、スマホアプリ（iOS, Androidに対応）とHandwash Evaluator(Jetson Nano)と使用したシステムです。
+ユーザがHandwash Evaluatorが設置されている自宅、研究室や職場へ到着すると、アプリからプッシュ通知が届きます。Handwash Evaluatorはユーザの手洗い開始を検知し、ユーザの手洗いを評価します。手洗い評価はHandwash Evaluatorに繋がれたモニターに映し出されているアニメーションと連動し可視化されます。
+手洗いの終了を検知するとモニターにQRが映し出され、ユーザはアプリでQRをスキャンすることでスコアを記録します。
 
-## Getting Started
+Handwash Evaluatorのリポジトリのリンクは[こちら](https://github.com/is0392hr/handwash)
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+当該授業で**最優秀賞**を受賞しました🎉🎉🎉
 
-### IMPORTANT:
+**紹介動画は[こちら](https://www.youtube.com/watch?v=PBns3sUhe7Y)**
 
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
+**スライドは[こちら]()**
 
-```
-flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
-```
-
-This command creates the generated files that parse each Record from Firestore into a schema object.
-
-### Getting started continued:
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 開発体制
+<table>
+  <tr>
+    <th>開発人数</th>
+    <td>
+      5人<br>
+      <b><a href="https://github.com/is0392hr"><img src="https://github.com/is0392hr.png" width="50px;" /></b>
+      <b><a href="https://github.com/chum0n"><img src="https://github.com/chum0n.png" width="50px;" /></b>
+      <b><img src="/assets/images/human.png" width="50px;" /></b>
+      <b><img src="/assets/images/human.png" width="50px;" /></b>
+      <b><img src="/assets/images/human.png" width="50px;" /></b>
+    </td>
+  </tr>
+  <tr>
+    <th>担当</th>
+    <td>
+      <a href="https://github.com/is0392hr">@is0392hr</a>：Planner of this project, Developer of Handwash Evaluator, Main developer of QR scanner and more<br>
+      <a href="https://github.com/chum0n">@chum0n</a> : Developer of Notification App, Main developer of database-related functions<br>
+      <a href="https://github.com/tahaShaheen">@tahaShaheen</a> : Developer of animation used in Handwash Evaluator, Co-developer of functions related to geolocation information acquisition<br>
+      Abe : Developer of Notification App, Main developer of functions related to geolocation information acquisition<br>
+      Suzuki : UI designer of Notification App<br>
+    </td>
+  </tr>
+  <tr>
+    <th>開発期間</th>
+    <td>1ヶ月</td>
+  </tr>
+  <tr>
+    <th>使用技術</th>
+    <td>Flutter(Dart)</td>
+  </tr>
+</table>
