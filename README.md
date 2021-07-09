@@ -24,7 +24,7 @@ Handwash Evaluatorのリポジトリのリンクは[こちら](https://github.co
       <b><a href="https://github.com/chum0n"><img src="https://github.com/chum0n.png" width="50px;" /></b>
       <b><a href="https://github.com/tahaShaheen"><img src="https://github.com/tahaShaheen.png" width="50px;" /></b>
       <b><a href="https://github.com/yudai78"><img src="https://github.com/yudai78.png" width="50px;" /></b>
-      <b><img src="/assets/images/human.png" width="50px;" /></b>
+      <b><a href="https://github.com/SSPod29"><img src="https://github.com/SSPod29.png" width="50px;" /></b>
     </td>
   </tr>
   <tr>
