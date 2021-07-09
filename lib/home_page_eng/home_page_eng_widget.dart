@@ -80,7 +80,6 @@ class _HomePageEngWidgetState extends State<HomePageEngWidget> {
                         child: Image.asset(
                           'assets/images/HandWashPromotionSystemEng.png',
                           height: 40,
-                          // width: MediaQuery.of(context).size.width * 0.6,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -90,26 +89,8 @@ class _HomePageEngWidgetState extends State<HomePageEngWidget> {
                         height:140,
                         fit: BoxFit.cover,
                       ),
-                      // Divider(
-                      //   height: 20,
-                      //   thickness: 20,
-                      //   color: Colors.black,
-                      // ),
-                      // Text(
-                      //   'An app that promotes hand washing',
-                      //   style: FlutterFlowTheme.bodyText1.override(
-                      //     fontFamily: 'Poppins',
-                      //   ),
-                      // ),
                       Padding(
                         padding: EdgeInsets.fromLTRB(1, 0, 0, 0),
-                        // child: Text(
-                        //   'An app that promotes hand washing',
-                        //   textAlign: TextAlign.center,
-                        //   style: FlutterFlowTheme.bodyText1.override(
-                        //     fontFamily: 'Poppins',
-                        //   ),
-                        // ),
                       ),
                       Padding(
                         padding: EdgeInsets.fromLTRB(0, 50, 0, 0),

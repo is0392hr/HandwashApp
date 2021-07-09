@@ -6,8 +6,6 @@ import '../score_reading/score_reading_widget.dart';
 import '../db/db_provider.dart';
 
 
-
-
 @immutable
 class ConfirmViewArguments {
   const ConfirmViewArguments({this.data});
@@ -52,7 +50,6 @@ class _QRCodeScannerViewState extends State<QRCodeScannerView> {
         children: <Widget>[
           Expanded(
             flex: 4,
-            // child: _buildPermissionState(context),
             child: _buildQRView(context),
           ),
           Expanded(
@@ -148,7 +145,6 @@ class _QRCodeScannerViewState extends State<QRCodeScannerView> {
         borderRadius: 16,
         borderLength: 24,
         borderWidth: 8,
-        // cutOutSize: scanArea,
       ),
     );
   }
@@ -159,11 +155,9 @@ class _QRCodeScannerViewState extends State<QRCodeScannerView> {
       _qrController = qrController;
     });
 
-
-    /// データを保存する
+    // データを保存する
     // QRを読み込みをlistenする
     qrController.scannedDataStream.listen((scanData) {
-
       // 次の画面へ遷移
       _transitionToNextScreen(scanData.code);
     });
@@ -180,12 +174,10 @@ class _QRCodeScannerViewState extends State<QRCodeScannerView> {
         DBProvider.columnScore : score,
         DBProvider.columnCreatedAt  : now.toString()
       };
-      final id = await dbProvider.insert(row);
-      print('inserted row id: $id');
+      await dbProvider.insert(row);
     }
     void _query() async {
       final allRows = await dbProvider.queryAllRows();
-      print('query all rows:');
       allRows.forEach((row) => print(row));
     }
     if (!_isQRScanned) {

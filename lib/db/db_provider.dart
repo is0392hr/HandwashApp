@@ -23,9 +23,6 @@ class DBProvider {
   // 宣言後に初期化されるnon-nullable変数の宣言
   static  Database _database;
   Future<Database> get database async {
-    // if (_database != null) return _database;
-    // 初の場合はDBを作成する
-    // print('--------- init DB ------------');
     _database = await _initDatabase();
     return _database;
   }
@@ -42,7 +39,6 @@ class DBProvider {
 
   // DBを作成するメソッド
   Future _onCreate(Database db, int version) async {
-    // ダブルクォートもしくはシングルクォート3つ重ねることで改行で文字列を作成できる。$変数名は、クラス内の変数のこと（文字列の中で使える）
     await db.execute('''
           CREATE TABLE $table (
             $columnId INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -78,7 +74,6 @@ class DBProvider {
   Future<int> update(Map<String, dynamic> row) async {
     Database db = await instance.database; //DBにアクセスする
     int id = row[columnId]; //引数のマップ型のcolumnIDを取得
-    print([id]);
     return await db.update(table, row, where: '$columnId = ?', whereArgs: [id]);
   }
 

@@ -22,7 +22,6 @@ class _ScoreReadingWidgetState extends State<ScoreReadingWidget> {
     final arguments =  widget.args;
 
     return Scaffold(
-      // key: scaffoldKey,
       body: Padding(
         padding: EdgeInsets.fromLTRB(1, 0, 0, 0),
         child: Column(

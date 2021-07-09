@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Rascal',
+      title: 'Mitarashi',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: HomePageWidget(),
     );
@@ -59,10 +59,8 @@ class HomePageWidget extends StatefulWidget {
       routes: <String, WidgetBuilder>{
         Const.routeHomePage: (BuildContext context) => HomePageWidget(),
         Const.routeQRCodeScanner: (BuildContext context) => QRCodeScannerView(),
-        Const.routeQRCodeScanner_en: (BuildContext context) => QRCodeScannerView_en(),
-        // Const.routeScoreReading: (BuildContext context) => ScoreReadingWidget(),
+        Const.routeQRCodeScanner_en: (BuildContext context) => QRCodeScannerView_en()
       },
-      // home: createState(),
     );
   }
 
@@ -73,18 +71,16 @@ class _HomePageWidgetState extends State<HomePageWidget> {
 
   void _addGeofence() {
     bg.BackgroundGeolocation.addGeofence(bg.Geofence(
-      identifier: 'HOME',
+      identifier: 'University',
       radius: 50,
-      latitude: 35.0662392,
-      longitude: 135.7803708,
+      latitude: 35.02665,
+      longitude: 135.78240,
       notifyOnEntry: true, // only notify on entry
       notifyOnExit: false,
       notifyOnDwell: false,
       loiteringDelay: 30000, // 30 seconds
     )).then((bool success) {
-      print('[addGeofence] success with 大学'
-//          '$_homeLatitude and $_homeLongitude'
-      );
+      print('[addGeofence] success with 大学');
     }).catchError((error) {
       print('[addGeofence] FAILURE: $error');
     });
@@ -111,20 +107,17 @@ class _HomePageWidgetState extends State<HomePageWidget> {
     _addGeofence();
     // set background geolocation events
     bg.BackgroundGeolocation.onGeofence(_onGeofence);
-    print('setはされた気がするけど');
     // Configure the plugin and call ready
     bg.BackgroundGeolocation.ready(bg.Config(
         desiredAccuracy: bg.Config.DESIRED_ACCURACY_HIGH,
         distanceFilter: 10.0,
         stopOnTerminate: false,
         startOnBoot: true,
-        debug: false, // true
-        logLevel: bg.Config.LOG_LEVEL_OFF, // bg.Config.LOG_LEVEL_VERBOSE
+        debug: false,
+        logLevel: bg.Config.LOG_LEVEL_OFF,
         autoSync: true))
         .then((bg.State state) {
       if (!state.enabled) {
-        // start the plugin
-        // bg.BackgroundGeolocation.start();
         print('start geofence');
         // start geofences only
         bg.BackgroundGeolocation.startGeofences();
@@ -212,20 +205,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             height: 140,
                             fit: BoxFit.cover,
                           ),
-                          // Divider(
-                          //   height: 30,
-                          //   // thickness: 0,
-                          //   color: Colors.black,
-                          // ),
                           Padding(
                             padding: EdgeInsets.fromLTRB(1, 0, 0, 0),
-                            // child: Text(
-                            //   'An app that promotes hand washing',
-                            //   textAlign: TextAlign.center,
-                            //   style: FlutterFlowTheme.bodyText1.override(
-                            //     fontFamily: 'Poppins',
-                            //   ),
-                            // ),
                           ),
                           Padding(
                             padding: EdgeInsets.fromLTRB(0, 50, 0, 0),

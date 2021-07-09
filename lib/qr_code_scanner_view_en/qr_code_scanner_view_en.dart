@@ -36,7 +36,6 @@ class _QRCodeScannerViewState_en extends State<QRCodeScannerView_en> {
 
   @override
   Widget build(BuildContext context) {
-    // _checkPermissionState();
     return Scaffold(
       appBar: AppBar(
         title: const Text('Scan the QR code'),
@@ -45,7 +44,6 @@ class _QRCodeScannerViewState_en extends State<QRCodeScannerView_en> {
         children: <Widget>[
           Expanded(
             flex: 4,
-            // child: _buildPermissionState(context),
             child: _buildQRView(context),
           ),
           Expanded(
@@ -141,7 +139,6 @@ class _QRCodeScannerViewState_en extends State<QRCodeScannerView_en> {
         borderRadius: 16,
         borderLength: 24,
         borderWidth: 8,
-        // cutOutSize: scanArea,
       ),
     );
   }
@@ -152,11 +149,9 @@ class _QRCodeScannerViewState_en extends State<QRCodeScannerView_en> {
       _qrController = qrController;
     });
 
-
-    /// データを保存する
+    // データを保存する
     // QRを読み込みをlistenする
     qrController.scannedDataStream.listen((scanData) {
-
       // 次の画面へ遷移
       _transitionToNextScreen(scanData.code);
     });
@@ -173,12 +168,10 @@ class _QRCodeScannerViewState_en extends State<QRCodeScannerView_en> {
         DBProvider.columnScore : score,
         DBProvider.columnCreatedAt  : now.toString()
       };
-      final id = await dbProvider.insert(row);
-      print('inserted row id: $id');
+      await dbProvider.insert(row);
     }
     void _query() async {
       final allRows = await dbProvider.queryAllRows();
-      print('query all rows:');
       allRows.forEach((row) => print(row));
     }
     if (!_isQRScanned) {

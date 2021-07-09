@@ -53,13 +53,6 @@ class _ScorePageWidgetState extends State<ScorePageWidget> {
         centerTitle: true,
         elevation: 4,
       ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: () {
-      //     print('FloatingActionButton pressed ...');
-      //   },
-      //   backgroundColor: Color(0xFF03A9F4),
-      //   elevation: 8,
-      // ),
       body: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.max,
@@ -88,14 +81,14 @@ class _ScorePageWidgetState extends State<ScorePageWidget> {
       ),
     );
   }
-  /// 保存したデータを取り出す
+  // 保存したデータを取り出す
   void getItems() async {
     List<Widget> list = <Widget>[];
     // database_helper.dartのDataBaseHelperをインスタンス化
     final dbProvider = DBProvider.instance;
     Future<List<Map>> result = dbProvider.queryAllRows2();
     List resultList = await result;
-    /// データの取り出し
+    // データの取り出し
     for (Map item in resultList) {
       // 日付操作
       String dateAll = item['created_at'].split(' ')[0];
@@ -186,7 +179,7 @@ class _ScorePageWidgetState extends State<ScorePageWidget> {
           )
       );
     }
-    /// ウィジェットの更新
+    // ウィジェットの更新
     setState(() {
       _items = list;
     });
